@@ -2,6 +2,6 @@ gunicorn
 numpy
 flask
 joblib
-scikit-learn
-pickle
+scikit-learn==1.4.0
+
 
