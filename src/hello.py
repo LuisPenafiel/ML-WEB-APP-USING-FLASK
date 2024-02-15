@@ -16,7 +16,7 @@ class_dict = {
     "1": "Iris versicolor",
     "2": "Iris virginica",
     "Iris-versicolor": "Iris versicolor",
-    "Iris-virginica": "Iris virginica"  # Añadida esta línea
+    "Iris-virginica": "Iris virginica"  
 }
 
 
