@@ -2,9 +2,9 @@ from flask import Flask, request, render_template
 from pickle import load
 import numpy as np
 import joblib as joblib
-import os
+import os 
 
-model = joblib.load('/workspaces/ML-WEB-APP-USING-FLASK/src/iris_model_LR.pkl')
+model = joblib.load('src/iris_model_LR.pkl')
 app=Flask(__name__)
 IMG_FOLDER=os.path.join('static','IMG')
 app.config['UPLOAD_FOLDER']=IMG_FOLDER
