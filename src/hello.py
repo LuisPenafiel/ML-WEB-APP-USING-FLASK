@@ -1,12 +1,8 @@
 from flask import Flask, request, render_template
-import pickle as pickle
 from pickle import load
 import numpy as np
-import numpy as numpy
 import joblib as joblib
 import os
-import pickle
-
 
 model = joblib.load('/workspaces/ML-WEB-APP-USING-FLASK/models/iris_model_LR.pkl')
 app=Flask(__name__)
