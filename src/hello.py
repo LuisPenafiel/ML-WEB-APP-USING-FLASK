@@ -5,6 +5,9 @@ import joblib as joblib
 import os 
 
 model=joblib.load('iris_model_LR.pkl')
+#model=joblib.load('/workspaces/ML-WEB-APP-USING-FLASK/src/iris_model_LR.pkl')
+#model=joblib.load('/workspaces/ML-WEB-APP-USING-FLASK/models/iris_model_LR.pkll')
+
 app=Flask(__name__)
 IMG_FOLDER=os.path.join('static','IMG')
 app.config['UPLOAD_FOLDER']=IMG_FOLDER
